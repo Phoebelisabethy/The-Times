@@ -21,6 +21,8 @@ img {
   justify-content: space-around;
   border-bottom:1px solid black;
   position: fixed;
+  background-color: white;
+  z-index: 2;
 
 }
 nav li{
@@ -58,7 +60,27 @@ nav {
   border: 1px solid black;
   position: relative;
   right: 70px;
-
-
-
+}
+.column {
+  display: flex;
+  border: 1px solid black;
+  position: absolute;
+  top: 120px;
+  justify-content: space-around;
+  z-index: 1;
+}
+.column .large {
+  height: 3000px;
+  width: 630px;
+  border: 1px solid black;
+}
+.column .medium {
+  height: 3000px;
+  width: 300px;
+  border: 1px solid black;
+}
+.column .small {
+  height: 3000px;
+  width: 240px;
+  border: 1px solid black;
 }
