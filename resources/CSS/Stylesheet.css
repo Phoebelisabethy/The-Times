@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  background-color: White;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+.navigation {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: right;
+  display: inline-flex;
+}
+.nav {
+  padding: 0px 10px;
+}
+.header {
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
